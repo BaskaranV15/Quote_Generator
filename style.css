@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #quote-box {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #quote {
+    font-size: 20px;
+  }
+  
+  #author {
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+ 
+  button:hover,
+  #tweet:hover {
+    background: #0056b3;
+  }
+  
+  
